@@ -65,7 +65,7 @@ for (var i = 1; i <= numRows; i++) {
  * 
 GIT STUFF
 git add . --all
-git commit -m "first commit"
+git commit -m "built a basic table"
 git push -u origin master
 
 git add . --all && git commit - m "first commit" && git push - u origin master

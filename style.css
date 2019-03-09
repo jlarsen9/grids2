@@ -1,6 +1,28 @@
+* {
+    font-size: 100px;
+}
+
 #title {
     font-size: 160px;
     background-color: mediumorchid;
+}
+
+#text-box {
+    background-color: teal;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#jenny-grid-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#jenny-grid {
+    display: inline-block;
 }
 
 td {

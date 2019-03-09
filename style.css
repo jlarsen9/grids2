@@ -1,3 +1,22 @@
-div {
+#title {
+    font-size: 160px;
     background-color: mediumorchid;
 }
+
+td {
+    font-size: 100px;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-color:black;
+    font-size: 130px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+button:active {
+    background: red;
+}
+

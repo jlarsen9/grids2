@@ -25,6 +25,11 @@
     display: inline-block;
 }
 
+#play-button {
+    width: 350px;
+    height: 200px;
+}
+
 td {
     font-size: 100px;
 }

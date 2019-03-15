@@ -65,8 +65,41 @@ for (var i = 1; i <= numRows; i++) {
  * 
 GIT STUFF
 git add . --all
-git commit -m "built a basic table"
+git commit -m "built a basic table" i.e.what do you add
 git push -u origin master
 
 git add . --all && git commit - m "first commit" && git push - u origin master
+*/
+
+
+
+USE COMMAND AND TAB TO QUICKLY GO BACK AND FORTH BETWEEN DIFFERENT SCREENS!!!!!!
+
+
+    < html >
+
+    <button onclick="console.log('lemmons and beries')">Method 1</button>
+    <button onclick="saySomething()">Method 2</button>
+    <button id="some-button">Method 3</button>
+
+    <script>
+        function saySomething() {
+            console.log('Lemmons and berries and keggs')
+        }
+
+
+        var someButton = document.getElementById('some-button');
+        someButton.addEventListener('click', handleClick);
+    function handleClick() {
+            console.log('I am the third way and I am the most complicated')
+        }
+    //alert('Hello jenny')
+    </script>
+
+</html >
+
+/*
+First class citizen: anything that can be put in a var
+keyword: use to make something special happen in code, ex: if, else, while, for
+- can not put a while or a for loop in a variable, put a for loop in a function, then a function in a variable!!!
 */

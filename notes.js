@@ -103,3 +103,4 @@ First class citizen: anything that can be put in a var
 keyword: use to make something special happen in code, ex: if, else, while, for
 - can not put a while or a for loop in a variable, put a for loop in a function, then a function in a variable!!!
 */
+

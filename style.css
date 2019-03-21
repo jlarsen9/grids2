@@ -2,13 +2,18 @@
     font-size: 100px;
 }
 
+body {
+    background-color:rgb(56,56,56);
+}
+
 #title {
     font-size: 160px;
     background-color: mediumorchid;
 }
 
 #text-box {
-    background-color: teal;
+    background-color:white;
+    color: rgb(56,56,56);
     width: 500px;
     height: 100px;
     margin: auto;
@@ -30,6 +35,8 @@
     height: 200px;
     display: block;
     margin: 0 auto;
+    background-color: limegreen;
+    color: white;
 }
 
 td {
@@ -37,9 +44,11 @@ td {
 }
 
 button {
+    color: firebrick;
+    text-transform: uppercase;
     width: 150px;
     height: 150px;
-    background-color: yellow;
+    background-color: white;
     border-color:black;
     font-size: 130px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 

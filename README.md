@@ -1,4 +1,4 @@
-# Moblie-Letter-Game
+# Mobile-Letter-Game
 
 This is a mobile word game that intakes letters to form words within a text box at the top. 
 

@@ -31,12 +31,11 @@ function createButtonRow(numButtons) {
         row = row + button
     }
     var jennyGrid = document.getElementById("jenny-grid")
-    jennyGrid.innerHTML += row + "<br></br>"
+    jennyGrid.innerHTML += row + "<br/>"
 }
 
 var numRows = 3
 var numColumns = 3
-createButtonRow(numColumns)
 
 
 for (var i = 1; i <= numRows; i++) {

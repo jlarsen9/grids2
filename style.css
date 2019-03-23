@@ -13,12 +13,16 @@ body {
 
 #text-box {
     background-color:white;
-    color: rgb(56,56,56);
-    width: 500px;
-    height: 100px;
+    color: #696969;
+    width: 530px;
+    height: 128px;
     margin: auto;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    font-size: 130px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: 200px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #jenny-grid-wrapper {
@@ -31,11 +35,12 @@ body {
 }
 
 #play-button {
-    width: 350px;
-    height: 200px;
+    width: 530px;
+    height: 150px;
+    text-align: center;
     display: block;
-    margin: 0 auto;
-    background-color: limegreen;
+    margin: 25 auto;
+    background-color: rgb(90,181, 44);
     color: white;
 }
 
@@ -45,11 +50,13 @@ td {
 
 button {
     color: firebrick;
+    border-radius: 30px;
     text-transform: uppercase;
     width: 150px;
     height: 150px;
     background-color: white;
     border-color:black;
+    margin: 25px;
     font-size: 130px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
